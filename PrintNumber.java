@@ -1,7 +1,7 @@
 public class PrintNumber {
     public static void main(String[] args) {
         int n=10;
-        int k=20;
+        // int k=20;
 
         System.out.println("Even Number: ");
         for(int i=0;i<=n;i+=2){   
@@ -9,7 +9,7 @@ public class PrintNumber {
         } 
         System.out.println();
         System.out.println("Odd Number: ");
-        for(int j=1; j<=k ;j+=2){
+        for(int j=1; j<=n ;j+=2){
             System.out.print( " "+j);
         }
     }

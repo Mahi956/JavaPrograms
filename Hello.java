@@ -6,8 +6,10 @@ public class Hello {
     // public static void main(String[] args) {
     //     sum(5);
     // }
-    int a=5;
+   
 
+    //non static
+    int a=5;                
     public static void main(String[] args) {
         Hello obj= new Hello();
         System.out.println(obj.a);

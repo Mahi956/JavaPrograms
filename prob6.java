@@ -4,6 +4,7 @@ public class prob6 {
         int Number=20;
         System.out.println("Hello java");
         System.out.println(number);//10
+        System.out.println(Number);
         System.out.println(10+20);//30//addition
         System.out.println("10"+"20");//1020// concatination
         System.out.println(10+"20");//1020
