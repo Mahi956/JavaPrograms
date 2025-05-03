@@ -12,8 +12,22 @@ public class ProductOfNumber {
         
     // }/
 
+    public static double ProductOfNumber(double num1 , double num2){
+        return num1*num2;
+    }
+
     public static void main(String[] args) {
         Scanner scr= new Scanner(System.in);
+
+        System.out.println("Enter 1st number: ");
+        double num1 =scr.nextDouble();
+
+        System.out.println("Enter 2nd number:");
+        double num2 =scr.nextDouble();
+
+        double Product = ProductOfNumber( num1 ,num2);
+        System.out.println("Product of number is : " + Product);
+        
         
     }
     
