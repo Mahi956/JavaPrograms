@@ -14,7 +14,7 @@
     Student(String firstname, int age){
         this(firstname);
         this.firstname=firstname;
-        age=age;
+        this.age=age;
 
        // System.out.println(firstname +" " + age);
     }
