@@ -1,7 +1,7 @@
  class Student {
     String firstname="Aditya";
     int age=26;
-
+    // constructor chaining
     Student(){
         System.out.println("hello");
     }
