@@ -1,13 +1,13 @@
 public class Thiskeyword {
-    // int age =15;
-    // void data(){
-    //     System.out.println(this);
-    // }
-    // public static void main(String[] args) {
-    //     Thiskeyword obj =new Thiskeyword();
-    //     obj.data();
-    //     System.out.println(obj.age);
-    // }
+    int age =15;
+    void data(){
+        System.out.println(this);
+    }
+    public static void main(String[] args) {
+        Thiskeyword obj =new Thiskeyword();
+        obj.data();
+        System.out.println(obj.age);
+    }
     
 }
 
