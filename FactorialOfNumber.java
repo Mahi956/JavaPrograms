@@ -1,3 +1,4 @@
+// taking user input
 import java.util.*;
 public class FactorialOfNumber {
     public static void main(String[] args) {
